@@ -1,0 +1,155 @@
+  @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Borel&family=Butterfly+Kids&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 1.5;
+    background-color:#242038 ;
+
+}
+
+h1,h2,h3,h4 {
+    font-family:"Borel";
+    color: #CBFF8C;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 5px;
+    gap: 20px;
+    background-color:#E7BBE3;
+}
+
+#profile-pic {
+    width: auto;
+    height: 200px;    
+}
+
+h1{
+    font-size: 2em;
+    color:#DC0073 ;
+}
+h2{
+    background-color:#DC0073 ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color:#DC0073 ;
+    text-align: center;
+    width: 40px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.navigation li a{
+    display:block;
+    padding: 1.5rem;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color:#CBFF8C ;
+    font-family:"butterfly kids" ;
+
+}
+
+.navigation li a:hover{
+    background-color:#DC0073 ;
+    font-weight: 700;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+.learning{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-color:#E7BBE3 ;
+    color: #242038;
+    border-radius: 10px;
+    justify-content: center;
+}
+.card-header{
+    background-color: #E7BBE3;
+    border-radius: 10px;
+    padding:5px ;
+    
+
+}
+.card-content{
+    background-color: #E7BBE3;
+    padding: 20px;
+    border-radius: 10px;
+}
+.alt-weather{
+    color:#DC0073;
+    font-family: "borel";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+    gap: 10px;
+
+
+}
+
+footer{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ justify-items: center;
+ align-items: center;
+ background-color: #CBFF8C;
+ color:#242038;
+ padding: 25px 50px;
+ font-family: "butterfly kids";
+}
+footer .footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #242038;
+}
+.copyright{
+    color: #242038;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.weather-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 15px;
+    font-size: 1rem;
+
+}
+
+
