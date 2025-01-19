@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Knewave&display=swap');
+
+body {
+    font-family: "delius";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #e800ae;
+    padding: 1em 0;
+    border-bottom: 2px solid #ddd;
+}
+
+h1 {
+    margin: 0.5em 0;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+main {
+    display: grid;
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.card {
+    border: 1px solid #e800ae;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(251, 0, 217, 0.1);
+    overflow: hidden;
+    background: #9314a1;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.card-header h3 {
+    margin: 0 0 0.5em 0;
+    font-size: 1.3em;
+    color: #9314a1;
+    text-align: center;
+}
+
+.card-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.card-content p {
+    margin-bottom: 0.5em;
+    color: #ffffff;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media (max-width: 599px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
